@@ -1,0 +1,26 @@
+.store_container {
+    min-height: 100vh;
+    background-image: url('./bg-img/Seamless\ marble\ texture\ \(11\).jpg');
+    background-size: cover;
+}
+.store-item {
+    box-shadow: 3px 3px 5px 5px ghostwhite;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.addItem-btn {
+    background-color: dodgerblue !important;
+    margin: 10px;
+}
+.input-bg {
+    background-color: darkgray;
+    color: black;
+}
+.img-size {
+    width: 10rem;
+    height: 10rem;
+}
+.shop-cart {
+    z-index: 9999;
+}

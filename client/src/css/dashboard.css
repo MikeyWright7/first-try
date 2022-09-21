@@ -1,0 +1,41 @@
+.dashboard_container {
+    min-height: 100vh;
+    background-image: url(./bg-img/banksafes3.jfif);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-header {
+    color: ghostwhite;
+    text-shadow: 1px 1px 1px black;
+}
+.profile-text {
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5rem;
+    color: dodgerblue;
+}
+.profile_container {
+    min-height: 80vh;
+    background-color: rgba(248,248,255,0.5);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.profile-info-box {
+    min-height: 50vh;
+    background-color: black;
+}
+.profile-stats {
+    background-color: ghostwhite;
+}
+.update-profile-box {
+    min-height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

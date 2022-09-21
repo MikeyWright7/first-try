@@ -1,0 +1,30 @@
+.contact_container {
+    min-height: 100vh;
+    background-image: url('./bg-img/Seamless\ marble\ texture\ \(11\).jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info-box {
+    height: auto;
+    width: 80vw;
+    background-color: black;
+    box-shadow: 0 0 10px 10px dodgerblue;
+    margin: 4rem;
+}
+.contact-text {
+    font-size: 3.3rem;
+    color: ghostwhite;
+}
+.social-media {
+    margin: 4rem;
+    background-color: dodgerblue;
+    height: auto;
+    box-shadow: 0 0 10px 10px dodgerblue;
+}
+.about-logo {
+    height: auto;
+    background-color: black;
+    
+}

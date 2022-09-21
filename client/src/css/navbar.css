@@ -1,0 +1,19 @@
+.nav-container {
+    position: fixed;
+}
+.nav-img {
+    height: 75px;
+    width: 150px;
+}
+.nav-links {
+    font-size: 1.3rem;
+    color: ghostwhite;
+    text-decoration: none;
+    list-style: none;
+}
+.name-display {
+    color: dodgerblue;
+    text-shadow: 1px 1px 1px ghostwhite;
+    font-size: 2.4rem;
+    margin-right: 9rem;
+}
