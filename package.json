@@ -8,12 +8,13 @@
     "config": "^3.3.1",
     "express": "^4.17.1",
     "helmet": "^4.2.0",
+    "http": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.16"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "nodemon": "^2.0.4"
   },
   "scripts": {

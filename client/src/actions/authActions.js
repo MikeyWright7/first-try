@@ -25,13 +25,13 @@ export const loadUser = () => (dispatch, getState) => {
 export const register = ({name, email, password, passwordTwo, age}) => dispatch => {
     const config = {
         headers: {
-            'Content-Type': 'application/json'
+            'content-type': 'application/json'
         }
     }
 // Body request
     const body = JSON.stringify({name, email, password, passwordTwo, age});
 
-    axios.post('/routes/user', body, config)
+    axios.post('/routes/user', body, config )
     .then(res =>{
         console.log(res.data)
         dispatch({

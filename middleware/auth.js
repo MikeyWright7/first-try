@@ -11,7 +11,7 @@ function auth(req, res, next) {
 
     try {
     // Verify token
-    const decoded = jwt.verify(token, config.get('secretsDoNotMakeFriends'));
+    const decoded = jwt.verify(token, config.get('jwtSecret'));
 
     // Add User from payload
     req.user = decoded;
