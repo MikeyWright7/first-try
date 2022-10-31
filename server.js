@@ -1,4 +1,3 @@
-const http = require('http');
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
@@ -22,7 +21,7 @@ mongoose.connect(process.env.DATABASE_URI,{
     .catch(err => console.log(err));
 
 // Use routes
-app.use('/routes', require('./routes/user'));
+app.use('/routes/user', require('./routes/user'));
 app.use('/routes/products', require('./routes/products'));
 app.use('/routes/auth', require('./routes/auth'));
 app.use('/routes/update', require('./routes/update'));

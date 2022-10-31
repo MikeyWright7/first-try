@@ -25,7 +25,7 @@ export const loadUser = () => (dispatch, getState) => {
 export const register = ({name, email, password, passwordTwo, age}) => dispatch => {
     const config = {
         headers: {
-            'content-type': 'application/json'
+            'Content-Type': 'application/json'
         }
     }
 // Body request
