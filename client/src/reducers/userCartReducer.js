@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+import {REMOVE_CART, ADD_CART, UPDATE_CART, PURCHASED} from './types';
 
 const initialState = {
     cart: null
@@ -7,21 +7,21 @@ const initialState = {
 export default function cart(state = initialState, action) {
     switch (action.type) {
         
-        case "REMOVE_CART":
+        case REMOVE_CART:
             return {
                 cart: action.payload
             };
-        case "ADD_CART":
+        case ADD_CART:
             return {
                 ...state,
                 cart: action.payload
             };
-        case "UPDATE_CART":
+        case UPDATE_CART:
             return {
                 ...state,
                 cart: action.payload
             }
-        case "PURCHASED":
+        case PURCHASED:
             return {
                 ...state,
                 cart: action.payload
