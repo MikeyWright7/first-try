@@ -2,7 +2,7 @@ const initialState = {
     location: "WELCOME"
 }
 
-export default function (state = initialState, action) {
+export default function locator(state = initialState, action) {
     switch (action.type) {
         case "STORE":
             return {

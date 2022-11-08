@@ -112,7 +112,7 @@ router.post('/removeItem', (req, res) => {
 
 
 
-router.post('/delete', (req, res) => {
+router.post('/deleteItem', (req, res) => {
     const { itemId } = req.body;
     Product.findById(itemId)
         .then(item => {

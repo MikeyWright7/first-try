@@ -4,7 +4,7 @@ const initialState = {
     cart: null
 }
 
-export default function (state = initialState, action) {
+export default function cart(state = initialState, action) {
     switch (action.type) {
         
         case "REMOVE_CART":
